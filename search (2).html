@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0 " />
+    <link rel="icon" type="image/x-icon" href="images\Logo2.png" />
+    <!-- linking the stylesheet(CSS) -->
+    <link rel="stylesheet" href="css/search.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- google font -->
+    <link
+      rel="preconnect"
+      href="link rel="
+      preconnect
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <img class="logo" src="images/637195238886374495.png" alt="" />
+      </div>
+    </div>
+    <div class="search">
+      <div class="table">
+        <table>
+          <div class="insearch">
+            <thead>
+              <tr>
+                <th>
+                  <input
+                    type="text"
+                    class="search-input"
+                    placeholder="Full Name"
+                    id="name_ofsearch"
+                  />
+                </th>
+                <th>
+                  <input
+                    type="text"
+                    class="search-input"
+                    placeholder="ID"
+                    id="ideofsearch"
+                  />
+                </th>
+                <th>
+                  <input
+                    type="text"
+                    class="search-input"
+                    placeholder="Position"
+                    id="positionofsearch"
+                  />
+                </th>
+                <th>
+                  <input
+                    type="text"
+                    class="search-input"
+                    placeholder="skill"
+                    id="skill"
+                  />
+                </th>
+                <th>
+                  <input
+                    type="text"
+                    class="search-input"
+                    placeholder="groupskill"
+                    id="groupskill"
+                  />
+                </th>
+                <th><button onclick="myFunction()">Search</button></th>
+              </tr>
+            </thead>
+          </div>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class=""></div>
+  </body>
+  <script>
+    function myFunction() {
+      let name = document.getElementById("name_ofsearch").value;
+      let id = document.getElementById("ideofsearch").value;
+      let position = document.getElementById("positionofsearch").value;
+      let skill = document.getElementById("skill").value;
+      let groupskill = document.getElementById("groupskill").value;
+    }
+  </script>
+</html>

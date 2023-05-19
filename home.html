@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0 "/>
+        <link rel="icon" type="image/x-icon" href="images/Logo2.png">
+        <link rel="stylesheet" href ="css/home.css">
+        <img src="images/Logo2.png" alt="Advance Computer Technology" style="margin-left:50px;width:150px;height:90px;background-size: cover;">
+        <link rel="" href ="configskillGROUPSKILL.html">
+        <link rel="stylesheet" href ="css/configgroup.css">
+        <script src="Js/configJs.js"></script>
+    </head>
+    <body> 
+        <header>
+            <hr>
+            <div class="navigationbar">
+                <a > Search</a>
+                <i>
+                <div class="dropdown">
+                    <button class="dropbtn" style="margin-left:18px;">Configurations</button>
+                        <div class="dropdown-content">
+                            <div class="dropdown1">
+                                <a href="#"><button class="dropbtn1"><em>Employee</em></button></a>
+                                    <div class="dropdown-content1">
+                                        <a id="eg_popup">Group</a>
+                                        <div id="egroup_pop" class="egroup_pop">
+                                            <div class="eg_popcontent">
+                                                <div class="eg_popheader">
+                                                    <span class="eg_close">&times;</span>
+                                                    <h2>Employee Group</h2>
+                                                </div>
+                                                <div class="eg_popbody">
+                                                    <form action="" method="post" >
+                                                        <input  type="text" required placeholder="Employee Group" id="eg"/>
+                                                        <input  type="text" required placeholder="Group ID" id="eg"/>
+                                                        <a href="" type="submit" id="submit" class="button">submit</a>
+                                                    </form>
+                                                </div>
+                                                </div>
+                                            </div>
+                                      <hr>
+                                      <a id="popup">Position</a>
+                                        <div id="position_pop" class="p_pop">
+                                            <div class="p_popcontent">
+                                                <div class="p_popheader">
+                                                    <span class="close">+</span>
+                                                    <h2>Employee Position</h2>
+                                                </div>
+                                                <div class="p_popbody">
+                                                    <form action="" method="post" >
+                                                        <input  type="text" required placeholder="Position" id="eg"/>
+                                                        <a href="" type="submit" id="submit" class="button">submit</a>
+                                                        
+                                                    </form>
+                                                </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                            </div>
+                            <hr>
+                            <div class="dropdown1">
+                                <a href="#"><button class="dropbtn1"><em>Skill</em></button></a>
+                                    <div class="dropdown-content1"> 
+                                    <a href="#" id="button" class="button">Group of Skills</a>
+                                    <hr>
+                                    <a id="s_spopup">Skills</a>
+                                        <div id="s_skillspop" class="ss_pop">
+                                            <div class="ss_popcontent">
+                                                <div class="ss_popheader">
+                                                    <span class="ss_close">&times;</span>
+                                                    <h2>Skills</h2>
+                                                </div>
+                                                <div class="ss_popbody">
+                                                    <form action="" >
+                                                        <input  type="text" required placeholder="Skill ID" id="sc">
+                                                        <input  type="text" required placeholder="Skill" id="ss">
+                                                        <a href="" id="submit" class="button" style="margin-left:150px;">submit</a>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </i>
+                <i>
+                    <div class="dropdown">
+                        <button class="dropbtn" style="margin-left:25px;">Operations</button>
+                        <div class="dropdown-content">
+                          <a style="padding-left: 60px;" id="eo_popup">On Employee</a>
+                                <div id="e_opop" class="eo_pop">
+                                    <div class="eo_popcontent">
+                                        <div class="eo_popheader">
+                                            <span class="eo_close">&times;</span>
+                                            <h2>Add Employee</h2>
+                                        </div>
+                                        <div class="eo_popbody">
+                                            <form method="post" action="" >
+                                                <input  type="text" placeholder="ID" id="employeeid" required />
+                                                <input  type="text" required placeholder="Name" id="employeename"/>
+                                                <input  type="text" required placeholder="Position" id="employeePosition"/>
+                                                <input  type="text" required placeholder="Group" id="employeeGroup"/>
+                                                <input  type="text" placeholder="Text1" id="employeeTxt1"/>
+                                                <input  type="text" placeholder="Text2" id="employeeTxt2"/>
+                                                <input type="submit" id="submit" class="button" onclick="idval()">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                          <hr>
+                          <a href="#" style="padding-left:20px;">On Skill</a>
+                        </div>
+                    </div>
+                </i> 
+                <a href="index.html">Logout</a>
+            </div>
+        </header>
+        
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="close">+</div>
+               <form action="" >
+                <input type="text" placeholder="group id">
+                <input type="text" placeholder="group">
+                <a href="" id="sub" class="button">submit</a>
+               
+               </form>
+                
+            </div>
+        </div>
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="close">+</div>
+                <form action="/" method="get"> 
+                <input type="text" name="name" placeholder="name of skill group" id="group of skill name"/>
+                <input type="text" name="code" placeholder="code of skill group" id="code of skill"/>
+                <a href=""id="this" class="submit" onsubmit="myfunction()">submit</a>
+               </form>
+        </div>
+        </div>
+    </body>
+    
+    <script src="Js/configJs.js"></script>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delet</title>
+    <!-- <link rel="icon" type="image/x-icon" href=""> -->
+    <link rel="stylesheet" href="css/configgroup.css">
+    <script src="Js/configJs.js"></script>
+</head>
+
+<body>
+    <!-- popup -->
+    <!-- <form action="/" method="get"> -->
+    <a href="#" id="button" class="button">click me</a>
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+            <h5>Employee List</h5>
+            <div class="check">
+                <input type="checkbox" name="my-checkbox" id="opt-in">
+                <label for ="opt-in">Amany</label>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script src="Js/configJs.js"></script>
+
+</html>
