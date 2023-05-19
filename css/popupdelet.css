@@ -1,0 +1,223 @@
+/* popup */
+.bg-modal {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 255, 255, 0.3);
+   background-size: cover;
+   position: absolute;
+   top: 0;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+.modal-content {
+   width: 500px;
+   height: 300px;
+   background-color: rgb(247, 247, 247, 0.8);
+   border-radius: 4px;
+   text-align: center;
+   padding: 20px;
+   position: relative;
+}
+input {
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+}
+        
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42;
+    transform: rotate(45deg);
+    cursor: pointer;        
+}
+    #sub {
+    font-size: 16px;
+   width: 70px;
+}
+* {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.check {
+    display: flex;
+    width: 20%;     
+ }
+.check label {
+     margin-top: 10px;
+ }
+    h5 {
+    text-align: left;
+}
+header {
+    padding: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    width: 120px;
+
+
+}
+
+.table {
+
+    font-family: "Fira Sans", sans-serif;
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+/* Style the submit button */
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+.table td,
+.search-input {
+    font-size: 1em;
+    padding: 0.6em 1em;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    font-family: "Fira Sans", sans-serif;
+    background-color: azure;
+}
+.insearch {
+    background-color: #01110e;
+}
+/* delet */
+button {
+    background-color: #ccddd7;
+    color: black;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn,
+.deletebtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+    background-color: #ccc;
+    color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+    background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Modal Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    .cancelbtn,
+    .deletebtn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,301 @@
+
+/* small screen */
+@media (min-width:768px){
+  .container{
+      width: 750px;
+  }
+  
+  }
+  /* medium screen */
+  @media (min-width:992px){
+      .container{
+          width: 970px;
+      }
+  }
+      /* larg screen */
+      @media (min-width:1200px){
+          .container {
+              width: 1170px;
+          }
+      }
+head{
+  background-size:cover;
+}
+
+.navigationbar {
+  height: 100%;
+  width: 15%; /*250px*/
+  display: inline-block;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 15px;
+  padding-bottom: 21%;
+}
+
+/* Style sidebar links */
+.navigationbar a {
+  padding: 20px 20px 20px 0px;
+  font-family:'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-size: 18px;
+  color:var(--black);
+  display: block;
+  text-align: center;
+}
+
+/* Style links on mouse-over */
+.navigationbar a:hover {
+  color: rgba(220, 100, 50);
+}
+
+
+  html{
+      
+    background-image: url("../images/back\ ground\ photo.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+
+  .dropbtn {
+      font-family:'Times New Roman', Times, serif;
+      margin-left:20px;
+      padding: 10px 20px 20px 0px;
+      text-decoration: none;
+      font-size: 18px;
+      color:var(--black);
+      display: block;
+      text-align: center;
+      background-color:transparent;
+      padding-left: 30px;
+      border: none;
+      cursor: pointer;
+      right:0;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display:inline-block;
+      cursor: pointer;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: relative;
+      background-color: rgb(219, 219, 219);
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 8px rgba(32, 32, 32, 0.322);
+      z-index: 1;
+      cursor: pointer;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      cursor: pointer;
+      color: black;
+      padding-left:30px;
+      padding-right:200px;
+      text-decoration: none;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      text-decoration: none;
+      }
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        color: rgba(220, 100, 50);
+  }
+    
+  .dropbtn1 {
+    font-family:'Times New Roman', Times, serif;
+    margin-left:20px;
+    text-decoration: none;
+    font-size: 18px;
+    color:var(--black);
+    display: inline;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    right:0;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown1 {
+    position:relative;
+    display:inline-block;
+    cursor: pointer;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content1 {
+    display:none;
+    position: absolute;
+    background-color: rgb(219, 219, 219);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 8px rgba(32, 32, 32, 0.322);
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content1 a {
+    cursor: pointer;
+    color: black;
+    padding-left:30px;
+    padding-right:200px;
+    text-decoration: none;
+    display:block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content1 a:hover {
+    text-decoration: none;
+    }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown1:hover .dropdown-content1 {
+      display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown1:hover .dropbtn1 {
+      color: rgba(220, 100, 50);
+}
+
+
+.p_pop ,.egroup_pop , .ss_pop , .eo_pop{
+display: none; 
+position: fixed; 
+z-index: 1; 
+padding-top: 100px; 
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%;
+background-color: rgb(219, 219, 219,0.7);/* Fallback color */
+}
+
+.p_popcontent , .eg_popcontent, .ss_popcontent , .eo_popcontent{
+position: relative;
+background-color: rgb(233, 230, 230);
+margin: auto;
+border: 1px solid #888;
+width: 60%;
+height:60%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.close{
+color: white;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,.close:focus , .eg_close:hover,.eg_close:focus, .ss_close:hover,.ss_close:focus{
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.p_popheader , .eg_popheader, .ss_popheader , .eo_popheader{
+padding-top: 2px;
+padding-bottom: 2px;
+text-align: center;
+background-color: rgba(199, 193, 193, 0.877);
+}
+
+.p_popbody ,.eg_popbody, .ss_popbody , .eopopbody{
+padding-top: 50px;
+}
+
+#submit{
+margin-left:320px;
+border-radius: 2px;
+border-color: #888;
+width:20%;
+}
+
+.button{
+margin-left:110px;
+border-radius: 2px;
+border-color: #888;
+}
+
+#ep{
+width: 40% ;
+}
+
+#eg{
+width: 35% ;
+}
+#ss{
+width:35%;
+}
+#sc{
+ width:25%;
+}
+#employeeid{
+width:35%;
+ }
+#employeename{
+   width:35%;
+}
+
+#employeePosition{
+width:35%;
+ }
+#employeeGroup{
+   width:35%;
+}
+
+#employeeTxt1{
+width:25%;
+ }
+#employeeTxt2{
+   width:25%;
+}
+.eg_close {
+color: white;
+padding-right:17px ;
+float: right;
+font-size: 28px;
+}
+.ss_close {
+color: white;
+padding-right:17px ;
+float: right;
+font-size: 28px;
+}
+
+.eo_close {
+color: white;
+padding-right:17px ;
+float: right;
+font-size: 28px;
+}
+
+.container{
+margin:auto;
+}
+h1{
+color:brown;
+}
+#pos{
+display:block;
+width: 20%;
+margin-left:22%
+}
+#countries{
+
+width: 25%;
+margin-left:20%
+}
